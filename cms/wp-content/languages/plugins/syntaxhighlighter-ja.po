@@ -1,0 +1,506 @@
+# Translation of Plugins - SyntaxHighlighter Evolved - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - SyntaxHighlighter Evolved - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-10-08 15:05:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - SyntaxHighlighter Evolved - Stable (latest release)\n"
+
+#: dist/blocks.build.js:1
+msgid "Make URLs Clickable"
+msgstr "URL をクリック可能にする"
+
+#: dist/blocks.build.js:1
+msgid "Wrap Long Lines"
+msgstr "長い行を折り返す"
+
+#: dist/blocks.build.js:1
+msgid "A comma-separated list of line numbers to highlight. Can also be a range. Example: 1,5,10-20"
+msgstr "強調表示する行番号のカンマ区切りリスト。範囲にすることもできます。例: 1,5,10-20"
+
+#: dist/blocks.build.js:1
+msgid "Highlight Lines"
+msgstr "ハイライト行"
+
+#: dist/blocks.build.js:1
+msgid "First Line Number"
+msgstr "最初の行番号"
+
+#: dist/blocks.build.js:1
+msgid "Show Line Numbers"
+msgstr "行番号を表示"
+
+#: dist/blocks.build.js:1
+msgid "Code Language"
+msgstr "コード言語"
+
+#: dist/blocks.build.js:1
+msgid "Develop"
+msgstr "開発"
+
+#: dist/blocks.build.js:1
+msgid "Program"
+msgstr "プログラム"
+
+#: dist/blocks.build.js:1
+msgid "Source"
+msgstr "ソース"
+
+#: dist/blocks.build.js:1
+msgid "Adds syntax highlighting to source code (front end only)."
+msgstr "構文強調表示をソースコードに追加します(フロントエンドのみ)。"
+
+#: dist/blocks.build.js:1
+msgid "SyntaxHighlighter Code"
+msgstr "SyntaxHighlighter コード"
+
+#: syntaxhighlighter.php:1547
+msgid "example-filename.php"
+msgstr "example-filename.php"
+
+#: syntaxhighlighter.php:1546 syntaxhighlighter.php:1547
+#: syntaxhighlighter.php:1548 syntaxhighlighter.php:1549
+msgid "your code here"
+msgstr "ここにコードを入れます"
+
+#: syntaxhighlighter.php:1543
+msgid "Some example shortcodes:"
+msgstr "引数指定の例:"
+
+#: syntaxhighlighter.php:1539
+msgctxt "wraplines parameter"
+msgid "%s (v2 only) &#8212; Toggle line wrapping."
+msgstr "%s (v2のみ) &#8212; 折り返しの有効・無効"
+
+#: syntaxhighlighter.php:1538
+msgctxt "toolbar parameter"
+msgid "%s &#8212; Toggle the toolbar (buttons in v2, the about question mark in v3)"
+msgstr "%s &#8212; ツールバーのオン・オフ(v2のボタン、v3のクエッションマーク)"
+
+#: syntaxhighlighter.php:1537
+msgctxt "title parameter"
+msgid "%1$s (v3 only) &#8212; Sets some text to show up before the code. Very useful when combined with the %2$s parameter."
+msgstr "%1$s （v3のみ） &#8212; コードの前に表示される表題テキスト。%2$sのパラメータと合わせて使うと有効です。"
+
+#: syntaxhighlighter.php:1536
+msgctxt "padlinenumbers parameter"
+msgid "%s &#8212; Controls line number padding. Valid values are <code>false</code> (no padding), <code>true</code> (automatic padding), or an integer (forced padding)."
+msgstr "%s &#8212; 行番号の余白。有効な値は、 <code>false</code>(余白なし), <code>true</code> (自動)、数値(余白)"
+
+#: syntaxhighlighter.php:1535
+msgctxt "light parameter"
+msgid "%s &#8212; Toggle light mode which disables the gutter and toolbar all at once."
+msgstr "%s &#8212; 行番号やツールバーを無効にする軽い表示モードのオン・オフ"
+
+#: syntaxhighlighter.php:1534
+msgctxt "htmlscript parameter"
+msgid "%s &#8212; Toggle highlighting any extra HTML/XML. Good for when you're mixing HTML/XML with another language, such as having PHP inside an HTML web page. The above preview has it enabled for example. This only works with certain languages."
+msgstr "%s &#8212; HTML/XML をハイライトするかどうか。HTMLウェブページで PHP を使うようにHTML/XMLとプログラムが混在するような時に有効です。上のプレビューではこの設定が有効になっています。これは特定の言語でしか動作しません。"
+
+#: syntaxhighlighter.php:1533
+msgctxt "highlight parameter"
+msgid "%1$s &#8212; A comma-separated list of line numbers to highlight. You can also specify a range. Example: %2$s"
+msgstr "%1$s &#8212; ハイライトする行番号のカンマ区切りのリスト。範囲を指定することもできます。 例: %2$s"
+
+#: syntaxhighlighter.php:1532
+msgctxt "gutter parameter"
+msgid "%s &#8212; Toggle the left-side line numbering."
+msgstr "%s &#8212; 左側に行番号を配置するかどうか"
+
+#: syntaxhighlighter.php:1531
+msgctxt "firstline parameter"
+msgid "%s &#8212; An interger specifying what number the first line should be (for the line numbering)."
+msgstr "%s &#8212; 行番号の出力の際に、最初の行の番号を表す数値"
+
+#: syntaxhighlighter.php:1530
+msgctxt "collapse parameter"
+msgid "%s &#8212; Toggle collapsing the code box by default, requiring a click to expand it. Good for large code posts."
+msgstr "%s &#8212; コードボックスをデフォルトの状態で閉じるかどうか。コードボックスを開くにはクリックが要求されます。長いコードの出力の際に有効です。"
+
+#: syntaxhighlighter.php:1529
+msgctxt "classname parameter"
+msgid "%s &#8212; Add an additional CSS class to the code box."
+msgstr "%s &#8212; コードボックスに追加するCSSのclass"
+
+#: syntaxhighlighter.php:1528
+msgctxt "autolinks parameter"
+msgid "%s &#8212; Toggle automatic URL linking."
+msgstr "%s &#8212; 自動リンクの有効・無効"
+
+#: syntaxhighlighter.php:1527
+msgctxt "language parameter"
+msgid "%1$s or %2$s &#8212; The language syntax to highlight with. You can alternately just use that as the tag, such as <code>[php]code[/php]</code>. <a href=\"%3$s\">Click here</a> for a list of valid tags (under &quot;aliases&quot;)."
+msgstr "%1$s または %2$s &#8212; ハイライトするコードの言語。パラメータ指定だけでなく<code>[php]code[/php]</code>のように言語をタグとして記述できます。有効なタグのリストは <a href=\"%3$s\">こちらをクリック</a> (&quot;aliases&quot;の下を参照)"
+
+#: syntaxhighlighter.php:1524
+msgid "These are the parameters you can pass to the shortcode and what they do. For the booleans (i.e. on/off), pass %1$s/%2$s or %3$s/%4$s."
+msgstr "これらはショートコードで渡すことができるパラメータと説明です。 bool値(有効・無効など)の指定には %1$s/%2$s または %3$s/%4$s を渡してください。"
+
+#: syntaxhighlighter.php:1522
+msgid "Shortcode Parameters"
+msgstr "ショートコードパラメータ"
+
+#: syntaxhighlighter.php:1511
+msgid "WordPress"
+msgstr "WordPress"
+
+#: syntaxhighlighter.php:1503
+msgid "This line is highlighted."
+msgstr "この行はハイライトされました"
+
+#: syntaxhighlighter.php:1501
+msgid "Hello World!"
+msgstr "Hello World!"
+
+#: syntaxhighlighter.php:1499
+msgid "PHP Code Example"
+msgstr "PHP コードサンプル"
+
+#: syntaxhighlighter.php:1480
+msgid "Click &quot;Save Changes&quot; to update this preview."
+msgstr "プレビューを更新するには &quot;変更を保存&quot; をクリックしてください"
+
+#: syntaxhighlighter.php:1478
+msgid "Preview"
+msgstr "プレビュー"
+
+#: syntaxhighlighter.php:1470
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: syntaxhighlighter.php:1468 syntaxhighlighter.php:1471
+msgid "Reset to Defaults"
+msgstr "設定を初期化"
+
+#: syntaxhighlighter.php:1458
+msgid "Some optional default text to display above each code block or as the clickable text for collapsed code blocks."
+msgstr "いくつかのオプションの既定のテキストは、各コードブロックの上または折りたたまれたコードブロックのクリック可能なテキストとして表示する"
+
+#: syntaxhighlighter.php:1455
+msgid "Title"
+msgstr "タイトル"
+
+#: syntaxhighlighter.php:1451
+msgid "Tab Size"
+msgstr "タブのサイズ"
+
+#: syntaxhighlighter.php:1435
+msgid "Automatic"
+msgstr "自動"
+
+#: syntaxhighlighter.php:1434
+msgid "Off"
+msgstr "なし"
+
+#: syntaxhighlighter.php:1429
+msgid "Line Number Padding"
+msgstr "行番号の余白"
+
+#: syntaxhighlighter.php:1425
+msgid "Starting Line Number"
+msgstr "行番号の開始"
+
+#: syntaxhighlighter.php:1421
+msgid "Additional CSS Class(es)"
+msgstr "追加のCSSのclass名(複数可能)"
+
+#: syntaxhighlighter.php:1416
+msgid "Enable &quot;HTML script&quot; mode by default (see the bottom of this page for details). Checking this box is not recommended as this mode only works with certain languages."
+msgstr "&quot;HTMLスクリプト&quot; モードを有効にする。 (詳細はこのページの下を参照)。Checking this box is not recommended as this mode only works with certain languages."
+
+#: syntaxhighlighter.php:1414
+msgid "Wrap long lines (v2.x only, disabling this will make a scrollbar show instead)"
+msgstr "長い行を折り返す(v2.xのみ、横スクロールバーを無効にする)"
+
+#: syntaxhighlighter.php:1413
+msgid "Use smart tabs allowing tabs being used for alignment"
+msgstr "インデントタブを許容するスマートタブを使う"
+
+#: syntaxhighlighter.php:1412
+msgid "Use the light display mode, best for single lines of code"
+msgstr "軽い表示モードを使う"
+
+#: syntaxhighlighter.php:1411
+msgid "Collapse code boxes"
+msgstr "コードボックスの表示を閉じておく"
+
+#: syntaxhighlighter.php:1410
+msgid "Automatically make URLs clickable"
+msgstr "自動リンクを有効にする"
+
+#: syntaxhighlighter.php:1409
+msgid "Display the toolbar"
+msgstr "ツールバーを表示する"
+
+#: syntaxhighlighter.php:1408
+msgid "Display line numbers"
+msgstr "行番号を表示する"
+
+#: syntaxhighlighter.php:1403 syntaxhighlighter.php:1406
+msgid "Miscellaneous"
+msgstr "一般"
+
+#: syntaxhighlighter.php:1399
+msgid "All of the settings below can be configured on a per-code block basis, but you can control the defaults of all code blocks here."
+msgstr "設定はコードの出力ごとに構成できますが、規定の設定をここで指定できます"
+
+#: syntaxhighlighter.php:1397
+msgid "Defaults"
+msgstr "規定の設定"
+
+#: syntaxhighlighter.php:1387 syntaxhighlighter.php:1390
+msgid "Load All Brushes"
+msgstr "すべてのブラシを読み込む"
+
+#: syntaxhighlighter.php:1375
+msgid "Color Theme"
+msgstr "テーマ"
+
+#: syntaxhighlighter.php:1371
+msgid "Version 2 allows for line wrapping, something that version 3 does not do at this time."
+msgstr "バージョン2は行 の折り返しが許可されています、この機能は現時点でバージョン3はサポートされません"
+
+#: syntaxhighlighter.php:1370
+msgid "Version 3 allows visitors to easily highlight portions of your code with their mouse (either by dragging or double-clicking) and copy it to their clipboard. No toolbar containing a Flash-based button is required."
+msgstr "バージョン3は、訪問者が簡単にマウスを使用して（ドラッグかダブルクリック）、コードの部分を強調表示し、クリップボードにへコピーできます。Flashベースボタンを含むツールバーが不要です。"
+
+#: syntaxhighlighter.php:1362
+msgid "Version 2.x"
+msgstr "バージョン 2.x"
+
+#: syntaxhighlighter.php:1361
+msgid "Version 3.x"
+msgstr "バージョン 3.x"
+
+#: syntaxhighlighter.php:1356
+msgid "Highlighter Version"
+msgstr "SyntaxHighlighterのバージョン"
+
+#: syntaxhighlighter.php:1340
+msgid "Settings reset to defaults."
+msgstr "設定を初期化する"
+
+#: syntaxhighlighter.php:1336
+msgid "Are you sure you want to reset your settings to the defaults?"
+msgstr "設定を初期化してもよいですか?"
+
+#: syntaxhighlighter.php:998
+msgid "+ expand source"
+msgstr "ソースを表示"
+
+#: syntaxhighlighter.php:995 syntaxhighlighter.php:1002
+msgid "Brush wasn't configured for html-script option: "
+msgstr "HTMLスクリプトのオプションのためにブラシが構成されませんでした: "
+
+#: syntaxhighlighter.php:994 syntaxhighlighter.php:1001
+msgid "Can't find brush for: "
+msgstr "指定のブラシが見つかりませんでした: "
+
+#: syntaxhighlighter.php:993 syntaxhighlighter.php:1000
+msgid "SyntaxHighlighter\\n\\n"
+msgstr "SyntaxHighlighter\\n\\n"
+
+#: syntaxhighlighter.php:992 syntaxhighlighter.php:999
+msgid "?"
+msgstr "SyntaxHighlighterについて"
+
+#: syntaxhighlighter.php:991
+msgid "print"
+msgstr "印刷"
+
+#: syntaxhighlighter.php:990
+msgid "The code is in your clipboard now"
+msgstr "コードをクリップボードへコピーしました"
+
+#: syntaxhighlighter.php:989
+msgid "copy to clipboard"
+msgstr "クリップボードへコピー"
+
+#: syntaxhighlighter.php:988
+msgid "view source"
+msgstr "ソースを表示"
+
+#: syntaxhighlighter.php:987
+msgid "show source"
+msgstr "ソースを見る"
+
+#: syntaxhighlighter.php:566 dist/blocks.build.js:1
+msgid "Settings"
+msgstr "設定"
+
+#: syntaxhighlighter.php:317
+msgid "SyntaxHighlighter"
+msgstr "SyntaxHighlighter"
+
+#: syntaxhighlighter.php:317 syntaxhighlighter.php:1347
+msgid "SyntaxHighlighter Settings"
+msgstr "SyntaxHighlighterの設定"
+
+#: syntaxhighlighter.php:305
+msgid "[None]"
+msgstr "[なし]"
+
+#: syntaxhighlighter.php:304
+msgid "RDark"
+msgstr "RDark"
+
+#: syntaxhighlighter.php:303
+msgid "Midnight"
+msgstr "Midnight"
+
+#: syntaxhighlighter.php:302
+msgid "Fade to Grey"
+msgstr "Fade to Grey"
+
+#: syntaxhighlighter.php:301
+msgid "Emacs"
+msgstr "Emacs"
+
+#: syntaxhighlighter.php:300
+msgid "Eclipse"
+msgstr "Eclipse"
+
+#: syntaxhighlighter.php:299
+msgid "Django"
+msgstr "Django"
+
+#: syntaxhighlighter.php:298
+msgid "Default"
+msgstr "デフォルト"
+
+#: syntaxhighlighter.php:265
+msgid "HTML / XHTML / XML / XSLT"
+msgstr "HTML / XHTML / XML / XSLT"
+
+#: syntaxhighlighter.php:264
+msgid "Visual Basic"
+msgstr "Visual Basic"
+
+#: syntaxhighlighter.php:263
+msgid "SQL"
+msgstr "SQL"
+
+#: syntaxhighlighter.php:262
+msgid "Scala"
+msgstr "Scala"
+
+#: syntaxhighlighter.php:261
+msgid "Ruby / Ruby on Rails"
+msgstr "Ruby / Ruby on Rails"
+
+#: syntaxhighlighter.php:260
+msgid "R"
+msgstr "R"
+
+#: syntaxhighlighter.php:259
+msgid "Python"
+msgstr "Python"
+
+#: syntaxhighlighter.php:258
+msgid "PowerShell"
+msgstr "PowerShell"
+
+#: syntaxhighlighter.php:257
+msgid "Plain Text"
+msgstr "プレーンテキスト"
+
+#: syntaxhighlighter.php:256
+msgid "PHP"
+msgstr "PHP"
+
+#: syntaxhighlighter.php:255
+msgid "Perl"
+msgstr "Perl"
+
+#: syntaxhighlighter.php:254
+msgid "Objective-C"
+msgstr "Objective-C"
+
+#: syntaxhighlighter.php:253
+msgid "MATLAB"
+msgstr "MATLAB"
+
+#: syntaxhighlighter.php:252
+msgid "LaTeX"
+msgstr "LaTeX"
+
+#: syntaxhighlighter.php:251
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: syntaxhighlighter.php:250
+msgid "JavaFX"
+msgstr "JavaFX"
+
+#: syntaxhighlighter.php:249
+msgid "Java"
+msgstr "Java"
+
+#: syntaxhighlighter.php:248
+msgid "Groovy"
+msgstr "Groovy"
+
+#: syntaxhighlighter.php:247
+msgid "F#"
+msgstr "F#"
+
+#: syntaxhighlighter.php:246
+msgid "Erlang"
+msgstr "Erlang"
+
+#: syntaxhighlighter.php:245
+msgid "diff / patch"
+msgstr "diff / patch"
+
+#: syntaxhighlighter.php:244
+msgid "Delphi / Pascal"
+msgstr "Delphi / Pascal"
+
+#: syntaxhighlighter.php:243
+msgid "CSS"
+msgstr "CSS"
+
+#: syntaxhighlighter.php:242
+msgid "C#"
+msgstr "C#"
+
+#: syntaxhighlighter.php:241
+msgid "C / C++"
+msgstr "C / C++"
+
+#: syntaxhighlighter.php:240
+msgid "Clojure"
+msgstr "Clojure"
+
+#: syntaxhighlighter.php:239
+msgid "ColdFusion"
+msgstr "ColdFusion"
+
+#: syntaxhighlighter.php:238
+msgid "BASH / Shell"
+msgstr "BASH / Shell"
+
+#: syntaxhighlighter.php:236
+msgid "ActionScript"
+msgstr "ActionScript"
+
+#. Author URI of the plugin
+msgid "https://alex.blog/"
+msgstr "https://alex.blog/"
+
+#. Author of the plugin
+msgid "Alex Mills (Viper007Bond)"
+msgstr "Alex Mills (Viper007Bond)"
+
+#. Plugin URI of the plugin
+msgid "https://alex.blog/wordpress-plugins/syntaxhighlighter/"
+msgstr "https://alex.blog/wordpress-plugins/syntaxhighlighter/"
+
+#. Plugin Name of the plugin
+msgid "SyntaxHighlighter Evolved"
+msgstr "SyntaxHighlighter Evolved"

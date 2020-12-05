@@ -1,0 +1,875 @@
+﻿/*=======================================
+下層ページ
+=========================================*/
+.p-page {
+	padding: 50px 0 100px;
+}
+
+.p-page1 {}
+
+
+
+
+
+
+
+
+/*=======================================
+会社概要
+=========================================*/
+
+.p-about{
+	.c-title2{
+		margin-bottom: 20px;
+	}
+	&__greeting{
+		padding-bottom: 40px;
+		.txt{
+			@include fs(14);
+			margin-bottom: 20px;
+		}
+		.policy{
+			border: 1px solid #DDDDDD;
+			padding: 30px 10px 30px;
+			h4{
+				@include fs(22);
+				text-align: center;
+				margin-bottom: 20px;
+			}
+			p{
+				text-align: center;
+				line-height: 200%;
+				strong{
+					@include fs(18);
+				}
+			}
+			
+		}
+	}
+	table{
+		tr{
+			th,
+			td{
+				width: 100%;
+				display: block;
+				-webkit-box-sizing: border-box;
+				   -moz-box-sizing: border-box;
+				        box-sizing: border-box;
+			}
+		}
+	}
+}
+
+
+/*=======================================
+プライバシーポリシー
+=========================================*/
+
+.p-privacy{
+	.c-title2{
+		margin-bottom: 20px;
+	}
+	p{
+		@include fs(14);
+	}
+	.box{
+		border: 1px solid #ddd;
+		padding: 10px 10px 0;
+		margin: 20px 0;
+		h4{
+			@include fs(14);
+			line-height: 200%;
+		}
+		p{
+			line-height: 200%;
+			margin-bottom: 30px;
+			@include fs(14);
+		}
+		ul{
+			margin-bottom: 30px;
+			li{
+				@include fs(14);
+			}
+		}
+	}
+	.name{
+		p{
+			text-align: right;
+		}
+	}
+}
+
+/*=======================================
+利用約款
+=========================================*/
+
+.p-agreement{
+	.c-title2{
+		margin-bottom: 20px;
+	}
+	p{
+		@include fs(14);
+	}
+	.box{
+		border: 1px solid #ddd;
+		padding: 10px 10px 0;
+		margin: 20px 0;
+		h4{
+			@include fs(14);
+			line-height: 200%;
+		}
+		ul{
+			padding-bottom: 30px;
+			li{
+				list-style-type: decimal;
+				list-style-position: inside;
+				text-indent: -1em;
+				padding-left: 1em;
+				@include fs(14);
+				ul{
+					padding-bottom: 0;
+				}
+			}
+		}
+	}
+	.name{
+		p{
+			text-align: right;
+		}
+	}
+}
+
+/*=======================================
+特定商取引法
+=========================================*/
+
+.p-trade{
+	.c-title2{
+		margin-bottom: 20px;
+	}
+	.c-table2{
+		table{
+			th,
+			td{
+				width: 100%;
+				display: block;
+			}
+		}
+	}
+}
+
+/*=======================================
+他社からの移転
+=========================================*/
+
+
+.p-transfer{
+	.c-title2{
+		margin-bottom: 20px;
+	}
+	&__intro{
+		padding-bottom: 40px;
+		p{
+			@include fs(14);
+			line-height: 180%;
+			padding-top: 20px;
+		}
+	}
+	&__flow{
+		.careful{
+			margin-top: 20px;
+			li{
+				@include fs(14);
+			}
+		}
+	}
+	.flow1{
+		padding-bottom: 40px;
+	}
+	.flow2{
+
+	}
+	.careful{
+		li{
+			@include fs(13);
+			padding-left: 1em;
+			text-indent: -1em;
+		}
+	}
+}
+
+.flow-list{
+	li{
+		position: relative;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		border: 1px solid #96ACCB;
+		-webkit-border-radius: 2px;
+		        border-radius: 2px;
+		margin-bottom: 70px;
+		@include fs(14);
+		padding: 15px; 
+		.title{
+			
+			h4{
+				background-color: #B20000;
+				color: #fff;
+				text-align: center;
+				display: block;
+				-webkit-border-radius: 3px;
+				        border-radius: 3px;
+			}
+		}
+		.txt{
+
+			vertical-align: middle;
+			line-height: 160%;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+			        box-sizing: border-box;
+			margin-top: 10px;
+		}
+		&:after{
+			content: "";
+			width: 31px;
+			height: 32px;
+			background: url("img/common/arrow_01.png") no-repeat center center;
+			display: block;
+			position: absolute;
+			left: 0;
+			right: 0;
+			margin: auto;
+			bottom: -50px;			
+		}
+		&:last-child{
+			margin-bottom: 0;
+			&:after{
+				content: none;
+			}
+		}
+	}
+}
+
+/*=======================================
+ご利用料金
+=========================================*/
+
+.p-price{
+	.c-title2{
+		margin-bottom: 20px;
+	}
+	p{
+		@include fs(14);
+		padding-top: 10px;
+	}
+	&__catch{
+		padding: 0 0 50px;
+		h3{
+			text-align: center;
+			@include fs(20);
+			img{
+				position: relative;
+				top: -6px;
+				width: 35%;
+			}
+		}
+		p{
+			text-align: center;
+			@include fs(16);
+			font-weight: bold;			
+		}
+	}
+	&__intro{
+		p{
+			@include fs(14);
+			padding-bottom: 40px;
+		}
+	}
+	&__detail{
+		background-color: #F1F4F8;
+		padding: 50px 0 20px;
+		.intro{
+			p{
+				@include fs(14);
+				padding: 20px 0 40px;
+				text-align: center;
+			}
+		}
+		table{
+			th{
+				width: 150px!important;
+			}
+		}
+	}
+	&__system{
+		padding-top: 40px;
+		table{
+
+			th,
+			td{
+				width: 100%!important;
+				display: block;
+				-webkit-box-sizing: border-box;
+				   -moz-box-sizing: border-box;
+				        box-sizing: border-box;
+			}
+		}
+	}
+
+}
+
+/*=======================================
+プラン詳細
+=========================================*/
+
+.p-planIn{
+
+	.c-title2{
+		margin-bottom: 20px;
+	}
+	&__intro{
+		text-align: center;
+		padding-bottom: 40px;
+		p{
+			text-align: left;
+			margin-bottom: 20px;
+			@include fs(14);
+		}
+		.c-title2{
+			h3{
+				text-align: left;
+			}
+		}
+		.icon-wrap{
+			background-color: #F1F4F8;
+			padding: 10px 0 0;
+			ul{
+				li{
+					width: 30%;
+					float: left;
+					font-weight: bold;
+					margin:0 5% 5% 0;
+					@include fs(10);
+					&:nth-child(3n){
+						margin:0 0 5% 0;
+					}
+					line-height: 130%;
+				}
+			}
+			&--light{
+				ul{
+					li{
+						vertical-align: top;
+					}
+				}
+			}			
+		}
+	}
+
+	&__detail{
+		padding-bottom: 40px;
+		.bg1{
+			background-color: #DCE7EF;
+			width: 28%;
+		}
+		.bg2{
+			background-color: #F1F1F1;
+			width: 20%;
+			text-align: center!important;
+		}
+		table{
+			tr{
+				td{
+
+					text-align: left!important;
+					padding: 10px 5px!important;
+					-webkit-box-sizing: border-box;
+					   -moz-box-sizing: border-box;
+					        box-sizing: border-box;
+				}
+			}
+		}
+	}
+	&__price{
+		padding-bottom: 40px;
+		p{
+			@include fs(14);
+			padding-bottom: 20px;
+		}
+		.left,
+		.right{
+			
+			table{
+				table-layout: auto!important;
+				tr{
+					th,
+					td{
+						padding: 5px;
+						-webkit-box-sizing: border-box;
+						   -moz-box-sizing: border-box;
+						        box-sizing: border-box;
+						@include fs(14);
+					}
+					th{
+						width: 100px!important;
+						text-align: left;
+						font-weight: normal;
+					}
+					td{
+						text-align: left;
+						span{
+							color: #B20000;
+							font-weight: bold;
+							@include fs(13);
+						}
+					}
+				}
+			}
+		}
+		.left{
+			margin-bottom: 30px;
+		}
+
+	}
+	&__domain{
+		p{
+			@include fs(14);
+			padding-bottom: 20px;
+		}
+	}
+
+}
+
+
+/*=======================================
+フォーム
+=========================================*/
+
+.p-form{
+	.c-title2{
+		margin-bottom: 20px;
+	}
+	.intro{
+		p{
+			margin-bottom: 15px;
+			@include fs(14);
+		}
+	}
+
+	table{
+		th,
+		td{
+			width: 100%!important;
+			display: block;
+			-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				     box-sizing: border-box;	
+		}
+	}
+	.preview{
+		padding: 20px 0 30px;
+		p{
+			text-align: center;
+			@include fs(14);
+		}
+	}
+}
+
+.c-form{
+    input {
+      &[type="text"], &[type="email"], &[type="tel"], &[type="date"] {
+        border: 0;
+        background: #F6F6F6;
+        padding: 10px 0;
+      }
+      &[type="submit"],
+      &[type="button"]{
+        background-color: transparent;
+        cursor: pointer;
+        outline: none;
+        padding: 0;
+        appearance: none;
+        border: 1px solid #BBBBBB;
+        width: 300px;
+        margin:0 auto;
+        @include fs(18);
+        display: inline-block;
+        font-weight: bold;
+        padding: 15px 0;
+      }
+    }
+
+    select{
+    	border: 0 !important;
+    	background: #F6F6F6;
+    	padding: 10px 0;
+    }
+
+    .send{
+    	text-align: center;
+    	.send-pre{
+    		background: url("img/common/icon_mail.png") no-repeat left 20% center;
+    	}
+    	.back-p{
+    		background: url("img/common/icon_back.png") no-repeat left 38% center;
+    	}
+    	.send-to{
+    		background: url("img/common/icon_mail.png") no-repeat left 30% center;
+    	}    	
+    	ul{
+    		display: inline-block;
+    		li{
+    			float: left;
+    			&:first-child{
+    				margin-right: 15px;
+    			}
+    		}
+    	}
+    }
+
+    .w100{
+    	width: 100%;
+    }
+    .w40{
+    	width: 40%;
+    }
+    .w60{
+    	width: 60%;
+    }
+    textarea {
+      width: 100%;
+      border: 0;
+      background: #F6F6F6;
+      padding: 10px 0;
+      font-family: inherit;
+    }
+
+}
+
+/*=======================================
+フォーム---プラン変更
+=========================================*/
+
+.p-change{
+	.c-title2{
+		margin-bottom: 20px;
+	}
+	.c-title3{
+		margin-bottom:20px;
+	}
+	&__intro{
+		p{
+			@include fs(14);
+		}
+	}
+
+	&__detail{
+		padding-bottom: 40px;
+		.box{
+			margin-top: 30px;
+			.in{
+				padding:10px ;
+				border: 1px solid #CCCCCC;
+				ul{
+					li{
+						@include fs(14);
+
+						line-height: 220%;
+					}
+				}
+			}
+			&--st1{
+				.in{
+					ul{
+						li{
+							padding-left: 1.5em;
+							text-indent: -1.5em;
+						}
+					}
+				}				
+			}
+			&--st2{
+				.in{
+					ul{
+						li{
+							padding-left: 1em;
+							text-indent: -1em;
+						}
+					}
+				}
+			}
+			&--st3{
+				.in{
+					ul{
+						li{
+							padding-left: 0.5em;
+							text-indent: -0.5em;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.p-form__inner{
+	p{
+		@include fs(14);
+		margin-bottom:20px;
+	}
+}
+
+/*=======================================
+フォーム---解約のご依頼について
+=========================================*/
+
+.p-cancellation{
+	.c-title2{
+		margin-bottom: 20px;
+	}
+	.c-title3{
+		margin-bottom: 15px;
+	}
+	&__intro{
+		padding-bottom: 30px;
+		p{
+			@include fs(14);
+			
+		}
+	}
+	&__flow{
+		padding-bottom: 40px;
+	}
+	&__about{
+		padding-bottom: 40px;
+
+		p,
+		li{
+			@include fs(14);
+		}
+		p{
+			padding-bottom: 30px;
+		}
+		ul{
+			padding-bottom: 30px;
+			li{
+				padding-left: 1em;
+				text-indent: -1em;
+			}
+		}
+	}
+}
+
+/*=======================================
+フォーム---管理者情報変更依頼フォーム
+=========================================*/
+
+.p-admin{
+	.c-title2{
+		margin-bottom: 20px;
+	}
+	p{
+		@include fs(14);
+		padding-bottom: 20px;
+	}
+	.example{
+		border: 1px solid #CCCCCC;
+		padding: 10px;
+		margin-bottom: 20px;
+		li{
+			font-weight: bold;
+			color: #B20000;
+			padding-bottom: 0;
+			padding-left: 2em;
+			text-indent: -2em;
+		}
+	}
+}
+
+/*=======================================
+フォーム---新規お申込みフォーム
+=========================================*/
+
+.p-new{
+	p{
+		@include fs(14);
+		padding-bottom: 20px;
+	}
+	table{
+		tr{
+			td{
+				.in{
+					padding: 5px 0;
+				}
+			}
+		}
+	}
+}
+
+/*=======================================
+Q&A
+=========================================*/
+
+.p-faq{
+	.c-title2,
+	.c-title3{
+		margin-bottom: 20px;
+	}
+	&__intro{
+		p{
+			@include fs(14);
+			padding-bottom: 20px;
+		}
+	}
+	&__blok{
+		padding-bottom: 40px;
+		&:last-child{
+			padding-bottom: 0;
+		}
+	}
+	.is-accordion{
+		.is-head{
+			border: 1px solid #96ACCB;
+			-webkit-border-radius: 3px;
+			        border-radius: 3px;
+			    @include fs(14);
+			padding: 10px 10px 10px 25px;
+			margin-bottom: 10px;
+			position: relative;
+			span{
+				line-height: 1;
+				&:before{
+					position: absolute;
+					left: 10px;
+					top: 17px;
+					content: "";
+					display: inline-block;
+					vertical-align: middle;
+					width: 10px;
+					height: 10px;
+					border: 2px solid #999999;
+					-webkit-box-sizing: border-box;
+					   -moz-box-sizing: border-box;
+					        box-sizing: border-box;
+				}
+			}
+			&.is-open{
+				font-weight: bold;
+				color: #000;
+				span{
+					&:before{
+						width: 13px;
+						height: 13px;
+						border: 3px solid #B20000;
+						margin-top: -3px;
+					}
+				}
+			}
+		}
+		.is-body{
+			margin-bottom: 10px;
+			background-color: #F1F1F1;
+			padding: 10px 20px;
+			@include fs(14);
+		}
+	}
+}
+
+/*=======================================
+アーカイブページ
+=========================================*/
+
+.p-info{
+	.c-title2{
+		margin-bottom: 20px;
+	}
+	p{
+		@include fs(14);
+	}
+	.tab-wrap{
+		margin-top: 30px;
+	}
+}
+
+.scroll {
+  table {
+    width: 100%;
+  }
+  overflow: auto;
+  white-space: nowrap;
+  &::-webkit-scrollbar {
+    height: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #F1F1F1;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #BCBCBC;
+  }
+}
+
+.scroll-txt{
+	background-color: #EEE;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #B20000;
+}
+
+
+
+/*=======================================
+詳細
+=========================================*/
+
+.single-title{
+	border-top: 1px solid #004798;
+	border-bottom: 1px solid #004798;
+
+	.data{
+		display: table-cell;
+		width: 100px;
+		text-align: center;
+		padding-top: 10px;
+	}
+	.cate{
+		display: table-cell;
+		width: 100px;
+		text-align: center;
+		padding-top: 10px;
+		vertical-align: middle;
+		text-align: center;
+		p{
+			background-color: #EEEEEE;
+			@include fs(12);
+			font-weight: bold;
+		}
+	}
+	.title{
+		padding: 5px 0 10px 10px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		@include fs(16);
+	}
+}
+
+.p-single{
+	.content{
+		padding: 40px 0 60px;
+	}
+	.single-pager{
+		display: table;
+		width: 100%;
+		li{
+			width: 33%;
+			display: table-cell;
+			text-align: center;
+			vertical-align: middle;
+			
+		}
+	}
+}

@@ -1,0 +1,145 @@
+/*=======================================
+ヘッダー
+=========================================*/
+.l-header {
+	padding: 20px 0;
+	.logo{
+		width: 40%;
+		float: left;
+		display: table;
+		h1{
+			display: table-cell;
+			width: 135px;
+		}
+		p{
+			display: table-cell;
+			vertical-align: middle;
+			width: calc(100% - 135px);
+			padding-left: 10px;
+			font-weight: bold;
+			line-height: 1;
+			@include fs(12);
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+			        box-sizing: border-box;
+		}
+	}
+	.nav{
+		width: 60%;
+		float: right;
+		text-align: right;
+	}
+  &--border{
+    border-bottom: 1px solid #CCCCCC;
+  }
+}
+
+
+.menu {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+
+  > li {
+    float: left;
+    /* グローバルナビ4つの場合 */
+
+    a {
+      display: block;
+
+	  padding: 0 30px;
+      &:hover {
+        color: #999;
+      }
+    }
+  }
+}
+
+ul {
+  &.menu__second-level {
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+  }
+
+  &.menu__third-level, &.menu__fourth-level {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.menu > li:hover {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.menu__second-level li, .menu__third-level li {
+  border-top: 1px solid #4A7BB6;
+}
+
+.menu__second-level li a:hover {
+  background: rgba(28, 70, 119, 0.9);;
+}
+
+
+
+
+
+
+/* floatクリア */
+
+.menu {
+  &:before {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+
+  *zoom: 1;
+
+  > li.menu__single {
+    position: relative;
+  }
+}
+
+li.menu__single {
+  ul.menu__second-level {
+    position: absolute;
+    top: 40px;
+    width: 200px;
+	right: 50%;
+	margin-right: -100px;
+    background:rgba(0,70,152,0.9);
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    li{
+
+    	text-align: center;
+    	@include fs(14);
+    	font-weight: bold;
+    	a{
+    		padding:15px 0;
+    		text-decoration: none;
+    		color: #FFF;
+    		
+    	}
+    }
+  }
+
+  &:hover ul.menu__second-level {
+    top: 50px;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+
+/*=======================================
+メニュー
+=========================================*/
+.l-nav {}

@@ -1,0 +1,244 @@
+//============================================
+// 余白
+//============================================
+.u-mt0 {margin-top: 0px;}
+.u-mt5 {margin-top: 5px;}
+.u-mt10 {margin-top: 10px;}
+.u-mt15 {margin-top: 15px;}
+.u-mt20 {margin-top: 20px;}
+.u-mt30 {margin-top: 30px;}
+.u-mt40 {margin-top: 40px;}
+.u-mt50 {margin-top: 50px;}
+.u-mt60 {margin-top: 60px;}
+.u-mt70 {margin-top: 70px;}
+.u-mt80 {margin-top: 80px;}
+.u-mt90 {margin-top: 90px;}
+
+.u-mb0 {margin-bottom: 0!important;}
+.u-mb5 {margin-bottom: 5px;}
+.u-mb10 {margin-bottom: 10px;}
+.u-mb15 {margin-bottom: 15px;}
+.u-mb20 {margin-bottom: 20px;}
+.u-mb30 {margin-bottom: 30px;}
+.u-mb40 {margin-bottom: 40px;}
+.u-mb50 {margin-bottom: 50px;}
+.u-mb60 {margin-bottom: 60px;}
+.u-mb70 {margin-bottom: 70px;}
+.u-mb80 {margin-bottom: 80px;}
+.u-mb90 {margin-bottom: 90px;}
+
+.u-pb0 {padding-bottom: 0px;}
+
+
+
+//============================================
+// 色
+//============================================
+.u-col {
+	color: $color;
+	&__red {color: #F00;}
+}
+
+
+
+//============================================
+// フォント
+//============================================
+.u-mincho {@include mincho;}
+.u-gothic {@include gothic;}
+
+.u-italic {font-style: italic;}
+
+
+
+//============================================
+// 文字構え
+//============================================
+.u-center {
+	text-align: center !important;
+	th,td {text-align: center !important;}
+}
+.u-right {
+	text-align: right !important;
+	th,td {text-align: right !important;}
+}
+.u-left {
+	text-align: left !important;
+	th,td {text-align: left !important;}
+}
+
+
+
+//============================================
+// サイト幅でセンタリング
+//============================================
+.c-wrap {
+	max-width: $w;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+//============================================
+// 背景
+//============================================
+.u-bg {}
+
+
+
+//============================================
+// 区切り
+//============================================
+.c-separate1 {}
+
+
+
+//============================================
+// ボタン
+//============================================
+.c-btn1 {}
+
+
+
+//============================================
+// 見出し
+//============================================
+.c-title1 {
+	text-align: center;
+	@include fs(30);
+}
+
+.c-title2{
+	background-color: #004798;
+	padding: 15px 10px;
+	h3{
+		border-left:3px solid #80A3CC;
+		padding-left: 5px;
+		color: #fff;
+		@include fs(18);
+	}
+}
+
+.c-title3{
+	h4{
+		color: #004698;
+		@include fs(18);
+		border-left: 3px solid #004698;
+		padding-left: 10px;
+	}
+}
+
+
+//============================================
+// テキスト
+//============================================
+.c-txt1 {}
+
+
+
+//============================================
+// リンク
+//============================================
+.c-link1 {}
+
+
+
+//============================================
+// 表
+//============================================
+.c-table1 {
+	table{
+		width: 100%;
+		table-layout: fixed;
+		border: 1px solid #96ACCB;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		tr{
+			th,
+			td{
+				border: 1px solid #96ACCB;
+				vertical-align: middle;
+				text-align: center;
+				padding: 15px 0;
+			}
+			th{
+				background-color: #DCE7EF;
+			}
+			td{
+				background-color: #FFF;
+			}
+		}
+		.btn{
+			a{
+				width: 120px;
+				display: block;
+				color: #004698;
+				background-color: #DEE6EF;
+				text-align: center;
+				line-height: 1;
+				padding: 8px 0;
+				margin:0 auto;
+				text-decoration: none;
+				-webkit-border-radius: 3px;
+				        border-radius: 3px;
+			}
+		}
+
+	}
+}
+.c-table2{
+	table{
+		width: 100%;
+		th,
+		td{
+			padding: 15px 10px;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+			        box-sizing: border-box;
+			@include fs(15);
+			border: 1px solid #CCCCCC;
+			font-feature-settings: "palt";
+		}
+		th{
+			width: 170px;
+			background-color: #F1F1F1;
+			text-align: left;
+			font-weight: normal;
+			vertical-align: middle;
+		}
+		td{
+			
+		}
+	}
+}
+
+.c-table__nostyle {//スタイル初期化
+	width: 100%;
+	th,td {
+		padding: 2px 0 !important;
+		border: 0;
+		font-weight: normal;
+		text-align: left;
+		vertical-align: top;
+		background: transparent;
+	}
+}
+
+
+
+//============================================
+// インデント
+//============================================
+.u-indent {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+
+
+//============================================
+// アンカーリンク調整
+//============================================
+.u-anchor {}
